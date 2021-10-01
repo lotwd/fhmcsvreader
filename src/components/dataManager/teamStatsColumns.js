@@ -1,0 +1,107 @@
+import React from 'react'
+import { Link } from 'gatsby'
+
+export const teamStatsColumns = (width) => {
+    const columnWidth = width || '120'
+    const columns = [
+        {
+            field:'fullName',
+            headerName:'Team',
+            width:'350',
+            renderCell:(params, GridRenderCellParams)=>(
+                <Link
+                    to="/team"
+                    state={{id:params.row.id, leagueId:params.row.leagueId}}
+                >
+                    {params.value}
+                </Link>
+            )
+        },
+        {
+            field:"games",
+            headerName:"GP",
+            width:columnWidth
+        },
+        {
+            field:"wins",
+            headerName:"W",
+            width:columnWidth
+        },
+        {
+            field:"losses",
+            headerName:"L",
+            width:columnWidth
+        },
+        {
+            field:"ties",
+            headerName:"T",
+            width:columnWidth
+        },
+        {
+            field:"overtimeLosses",
+            headerName:"OTL",
+            width:columnWidth
+        },
+        {
+            field:"shootoutWins",
+            headerName:"W-SO",
+            width:columnWidth
+        },
+        {
+            field:"shootoutLosses",
+            headerName:"L-SO",
+            width:columnWidth
+        },
+        {
+            field:"points",
+            headerName:"PTS",
+            width:columnWidth
+        },
+        {
+            field:"percentage",
+            headerName:"W%",
+            width:columnWidth
+        },
+        {
+            field:"goals",
+            headerName:"GF",
+            width:columnWidth
+        },
+        {
+            field:"goalsAllowed",
+            headerName:"GA",
+            width:columnWidth
+        },
+        {
+            field:"faceoffs",
+            headerName:"FO%",
+            width:columnWidth
+        },
+        {
+            field:"scoredFirstW",
+            headerName:"SFW",
+            width:columnWidth
+        },
+        {
+            field:"scoredFirstL",
+            headerName:"SFL",
+            width:columnWidth
+        },
+        {
+            field:"scoredFirstT",
+            headerName:"SFT",
+            width:columnWidth
+        },
+        {
+            field:"injuries",
+            headerName:"IND",
+            width:columnWidth
+        },
+        {
+            field:"penaltiesPerGame",
+            headerName:"PTM/G",
+            width:columnWidth
+        },       
+    ]
+    return columns
+}

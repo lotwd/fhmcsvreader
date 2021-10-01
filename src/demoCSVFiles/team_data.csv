@@ -1,0 +1,123 @@
+TeamId;LeagueId;Name;Nickname;Abbr;Parent Team 1;Parent Team 2;Parent Team 3;Parent Team 4;Parent Team 5;Parent Team 6;Parent Team 7;Parent Team 8;Primary Color;Secondary Color;Text Color;Conference Id;Division Id
+0;0;Montreal;Canadiens;MTL;-1;-1;-1;-1;-1;-1;-1;-1;#c60000;#0031ad;#fefef4;0;0
+1;0;Toronto;Maple Leafs;TOR;-1;-1;-1;-1;-1;-1;-1;-1;#000084;#000084;#fefef4;0;0
+2;0;Boston;Bruins;BOS;-1;-1;-1;-1;-1;-1;-1;-1;#ffc422;#000000;#fefef4;0;0
+3;0;Chicago;Blackhawks;CHI;-1;-1;-1;-1;-1;-1;-1;-1;#e3263a;#000000;#fefef4;1;1
+4;0;Detroit;Red Wings;DET;-1;-1;-1;-1;-1;-1;-1;-1;#bf0000;#bf0000;#fefef4;0;0
+5;0;New York;Rangers;NYR;-1;-1;-1;-1;-1;-1;-1;-1;#0161ab;#e6393f;#fefef4;0;1
+6;0;Los Angeles;Kings;LAK;-1;-1;-1;-1;-1;-1;-1;-1;#000000;#afb7ba;#fefef4;1;0
+7;0;Dallas;Stars;DAL;-1;-1;-1;-1;-1;-1;-1;-1;#01865b;#000000;#c0c0c0;1;1
+8;0;Philadelphia;Flyers;PHI;-1;-1;-1;-1;-1;-1;-1;-1;#ff6319;#000000;#fefef4;0;1
+9;0;Pittsburgh;Penguins;PIT;-1;-1;-1;-1;-1;-1;-1;-1;#ffb81c;#000000;#fefef4;0;1
+10;0;St. Louis;Blues;STL;-1;-1;-1;-1;-1;-1;-1;-1;#0546a0;#101f48;#ffc325;1;1
+11;0;Buffalo;Sabres;BUF;-1;-1;-1;-1;-1;-1;-1;-1;#002e62;#aeb6b9;#fefef4;0;0
+12;0;Vancouver;Canucks;VAN;-1;-1;-1;-1;-1;-1;-1;-1;#000084;#216300;#fefef4;1;0
+13;0;Calgary;Flames;CGY;-1;-1;-1;-1;-1;-1;-1;-1;#c62100;#000000;#ffc758;1;0
+14;0;New York;Islanders;NYI;-1;-1;-1;-1;-1;-1;-1;-1;#00529b;#f57d31;#fefef4;0;1
+15;0;New Jersey;Devils;NJD;-1;-1;-1;-1;-1;-1;-1;-1;#e03a3e;#000000;#fefef4;0;1
+16;0;Washington;Capitals;WAS;-1;-1;-1;-1;-1;-1;-1;-1;#c60c30;#002147;#fefef4;0;1
+17;0;Edmonton;Oilers;EDM;-1;-1;-1;-1;-1;-1;-1;-1;#002776;#ff6319;#fefef4;1;0
+18;0;Carolina;Hurricanes;CAR;-1;-1;-1;-1;-1;-1;-1;-1;#e03a3e;#000000;#fefef4;0;1
+19;0;Colorado;Avalanche;COL;-1;-1;-1;-1;-1;-1;-1;-1;#8b2942;#01548a;#a9b0b8;1;1
+20;0;Arizona;Coyotes;ARZ;-1;-1;-1;-1;-1;-1;-1;-1;#8c2633;#000000;#e2d6b5;1;0
+21;0;San Jose;Sharks;SJS;-1;-1;-1;-1;-1;-1;-1;-1;#006778;#000000;#fefef4;1;0
+22;0;Ottawa;Senators;OTT;-1;-1;-1;-1;-1;-1;-1;-1;#e4173e;#000000;#fefef4;0;0
+23;0;Tampa Bay;Lightning;TBL;-1;-1;-1;-1;-1;-1;-1;-1;#013e7d;#000000;#fefef4;0;0
+24;0;Anaheim;Ducks;ANA;-1;-1;-1;-1;-1;-1;-1;-1;#ef5225;#91764b;#fefef4;1;0
+25;0;Florida;Panthers;FLA;-1;-1;-1;-1;-1;-1;-1;-1;#c60c30;#002e5f;#d59c05;0;0
+26;0;Nashville;Predators;NSH;-1;-1;-1;-1;-1;-1;-1;-1;#002e62;#fdbb2f;#fefef4;1;1
+27;0;Winnipeg;Jets;WPG;-1;-1;-1;-1;-1;-1;-1;-1;#041e42;#00488f;#fefef4;1;1
+28;0;Columbus;Blue Jackets;CBJ;-1;-1;-1;-1;-1;-1;-1;-1;#00285c;#e03a3e;#fefef4;0;1
+29;0;Minnesota;Wild;MIN;-1;-1;-1;-1;-1;-1;-1;-1;#025736;#bf2b37;#eee3c7;1;1
+30;0;Vegas;Golden Knights;VGK;-1;-1;-1;-1;-1;-1;-1;-1;#333f48;#000000;#fefef4;1;0
+31;1;Syracuse;Crunch;SYR;23;-1;-1;-1;-1;-1;-1;-1;#1d427c;#a9a8ac;#fefef4;0;1
+32;1;Manitoba;Moose;MAN;27;-1;-1;-1;-1;-1;-1;-1;#041e42;#a8a9ad;#fefef4;1;0
+33;1;Providence;Bruins;PRO;2;-1;-1;-1;-1;-1;-1;-1;#000000;#ffb81c;#fefef4;0;0
+34;1;Rochester;Americans;RCH;11;-1;-1;-1;-1;-1;-1;-1;#001489;#e4002b;#fefef4;0;1
+35;1;Stockton;Heat;STO;13;-1;-1;-1;-1;-1;-1;-1;#da291c;#000000;#fefef4;1;1
+36;1;Charlotte;Checkers;CHA;25;-1;-1;-1;-1;-1;-1;-1;#c8102e;#8a8d8f;#000000;0;0
+37;1;Rockford;IceHogs;RCK;3;-1;-1;-1;-1;-1;-1;-1;#c8102e;#000000;#fefef4;1;0
+38;1;Cleveland;Monsters;CLE;28;-1;-1;-1;-1;-1;-1;-1;#9d2235;#000000;#f2a900;0;1
+39;1;Tucson;Roadrunners;TUC;20;-1;-1;-1;-1;-1;-1;-1;#98012e;#b17d58;#eee3c7;1;1
+40;1;Texas;Stars;TEX;7;-1;-1;-1;-1;-1;-1;-1;#154734;#aa8a00;#fefef4;1;0
+41;1;Grand Rapids;Griffins;GRA;4;-1;-1;-1;-1;-1;-1;-1;#003057;#bb0e31;#fefef4;1;0
+42;1;Bakersfield;Condors;BAK;17;-1;-1;-1;-1;-1;-1;-1;#041e42;#8b634b;#fefef4;1;1
+43;1;Henderson;Silver Knights;HEN;30;-1;-1;-1;-1;-1;-1;-1;#333f48;#000000;#fefef4;1;1
+44;1;Ontario;Reign;ONT;6;-1;-1;-1;-1;-1;-1;-1;#250e62;#000000;#c69214;1;1
+45;1;Iowa;Wild;IOW;29;-1;-1;-1;-1;-1;-1;-1;#154734;#a6192e;#ddcba4;1;0
+46;1;Laval;Rocket;LAV;0;-1;-1;-1;-1;-1;-1;-1;#a6192e;#012169;#fefef4;0;1
+47;1;Bridgeport;Sound Tigers;BRI;14;-1;-1;-1;-1;-1;-1;-1;#003087;#e03c31;#fefef4;0;0
+48;1;Hartford;Wolf Pack;HAR;5;-1;-1;-1;-1;-1;-1;-1;#000000;#e4002b;#fefef4;0;0
+49;1;Milwaukee;Admirals;MIL;26;-1;-1;-1;-1;-1;-1;-1;#000000;#69b3e7;#d5d4d4;1;0
+50;1;Binghamton;Devils;BIN;15;-1;-1;-1;-1;-1;-1;-1;#c8102e;#000000;#fefef4;0;1
+51;1;Belleville;Senators;BEL;22;-1;-1;-1;-1;-1;-1;-1;#c8102e;#c69214;#fefef4;0;1
+52;1;Lehigh Valley;Phantoms;LEH;8;-1;-1;-1;-1;-1;-1;-1;#fe5000;#000000;#fefef4;0;0
+53;1;Springfield;Thunderbirds;SPR;10;-1;-1;-1;-1;-1;-1;-1;#0063a6;#d11f2f;#fefef4;0;0
+54;1;Wilkes-Barre/Scranton;Penguins;WBS;9;-1;-1;-1;-1;-1;-1;-1;#000000;#c8102e;#c5b783;0;0
+55;1;San Jose;Barracuda;SJB;21;-1;-1;-1;-1;-1;-1;-1;#00677f;#000000;#a2aaad;1;1
+56;1;Utica;Comets;UTI;12;-1;-1;-1;-1;-1;-1;-1;#00205b;#00843d;#fefef4;0;1
+57;1;San Diego;Gulls;SDG;24;-1;-1;-1;-1;-1;-1;-1;#00205b;#c8102e;#ffc72c;1;1
+58;1;Toronto;Marlies;TOR;1;-1;-1;-1;-1;-1;-1;-1;#00205b;#407ec9;#fefef4;0;1
+59;1;Chicago;Wolves;CHI;18;-1;-1;-1;-1;-1;-1;-1;#862633;#f2a900;#fefef4;1;0
+60;1;Hershey;Bears;HER;16;-1;-1;-1;-1;-1;-1;-1;#3e2b2e;#6d4f47;#d3bc8d;0;0
+61;1;Colorado;Eagles;COL;19;-1;-1;-1;-1;-1;-1;-1;#264f91;#e12e56;#ffd761;1;1
+62;3;Brandon;Wheat Kings;BRA;-1;-1;-1;-1;-1;-1;-1;-1;#e6bf2e;#e6bf2e;#fefef4;0;0
+63;3;Moose Jaw;Warriors;MJW;-1;-1;-1;-1;-1;-1;-1;-1;#bf2f38;#000000;#c0c0c0;0;0
+64;3;Prince Albert;Raiders;PRA;-1;-1;-1;-1;-1;-1;-1;-1;#005837;#000000;#fefef4;0;0
+65;3;Regina;Pats;REG;-1;-1;-1;-1;-1;-1;-1;-1;#0039a6;#c60c30;#fefef4;0;0
+66;3;Saskatoon;Blades;SAS;-1;-1;-1;-1;-1;-1;-1;-1;#003e7e;#003e7e;#fefef4;0;0
+67;3;Swift Current;Broncos;SWI;-1;-1;-1;-1;-1;-1;-1;-1;#0039a6;#0039a6;#c0c0c0;0;1
+68;3;Calgary;Hitmen;CAL;-1;-1;-1;-1;-1;-1;-1;-1;#e13a3a;#e13a3a;#000000;0;1
+69;3;Edmonton;Oil Kings;EDM;-1;-1;-1;-1;-1;-1;-1;-1;#00529b;#ffc726;#fefef4;0;1
+70;3;Winnipeg;Ice;WPG;-1;-1;-1;-1;-1;-1;-1;-1;#6ab1df;#000000;#fefef4;0;0
+71;3;Lethbridge;Hurricanes;LET;-1;-1;-1;-1;-1;-1;-1;-1;#cf142b;#cf142b;#fefef4;0;1
+72;3;Medicine Hat;Tigers;MED;-1;-1;-1;-1;-1;-1;-1;-1;#f87a36;#f87a36;#000000;0;1
+73;3;Red Deer;Rebels;RED;-1;-1;-1;-1;-1;-1;-1;-1;#ce2029;#ce2029;#fefef4;0;1
+74;3;Kamloops;Blazers;KAM;-1;-1;-1;-1;-1;-1;-1;-1;#08007b;#ff6200;#fefef4;1;0
+75;3;Kelowna;Rockets;KEL;-1;-1;-1;-1;-1;-1;-1;-1;#008394;#e13a3e;#fefef4;1;0
+76;3;Prince George;Cougars;PRG;-1;-1;-1;-1;-1;-1;-1;-1;#000000;#9e7053;#c60c30;1;0
+77;3;Vancouver;Giants;VAN;-1;-1;-1;-1;-1;-1;-1;-1;#000000;#c60c30;#c0c0c0;1;0
+78;3;Victoria;Royals;VIC;-1;-1;-1;-1;-1;-1;-1;-1;#4169e1;#c0c0c0;#fefef4;1;0
+79;3;Everett;Silvertips;EVE;-1;-1;-1;-1;-1;-1;-1;-1;#005931;#c0c0c0;#fefef4;1;1
+80;3;Portland;Winterhawks;POR;-1;-1;-1;-1;-1;-1;-1;-1;#c60c30;#000000;#fefef4;1;1
+81;3;Seattle;Thunderbirds;SEA;-1;-1;-1;-1;-1;-1;-1;-1;#4eae17;#4eae17;#fefef4;1;1
+82;3;Spokane;Chiefs;SPO;-1;-1;-1;-1;-1;-1;-1;-1;#e03a3e;#0039a6;#fefef4;1;1
+83;3;Tri-City;Americans;TRI;-1;-1;-1;-1;-1;-1;-1;-1;#00285d;#ce2029;#c0c0c0;1;1
+84;2;Hamilton;Bulldogs;HAM;-1;-1;-1;-1;-1;-1;-1;-1;#000000;#bf2f38;#fdb827;0;0
+85;2;Kingston;Frontenacs;KIN;-1;-1;-1;-1;-1;-1;-1;-1;#000000;#fdb827;#fefef4;0;0
+86;2;Oshawa;Generals;OSH;-1;-1;-1;-1;-1;-1;-1;-1;#c60c30;#0039a6;#fefef4;0;0
+87;2;Ottawa;67's;OTT;-1;-1;-1;-1;-1;-1;-1;-1;#c60c30;#000000;#fefef4;0;0
+88;2;Peterborough;Petes;PET;-1;-1;-1;-1;-1;-1;-1;-1;#900028;#900028;#fefef4;0;0
+89;2;Barrie;Colts;BAR;-1;-1;-1;-1;-1;-1;-1;-1;#023986;#023986;#fed548;0;1
+90;2;North Bay;Battalion;NOR;-1;-1;-1;-1;-1;-1;-1;-1;#6b8e23;#fdb827;#000000;0;1
+91;2;Mississauga;Steelheads;MIS;-1;-1;-1;-1;-1;-1;-1;-1;#003e7e;#c0c0c0;#fefef4;0;1
+92;2;Niagara;IceDogs;NIA;-1;-1;-1;-1;-1;-1;-1;-1;#c60c30;#000000;#fefef4;0;1
+93;2;Sudbury;Wolves;SUD;-1;-1;-1;-1;-1;-1;-1;-1;#0039a6;#8f8e93;#fefef4;0;1
+94;2;Erie;Otters;ERI;-1;-1;-1;-1;-1;-1;-1;-1;#fcc200;#000050;#fefef4;1;0
+95;2;Guelph;Storm;GUE;-1;-1;-1;-1;-1;-1;-1;-1;#dc143c;#000000;#fefef4;1;0
+96;2;Kitchener;Rangers;KIT;-1;-1;-1;-1;-1;-1;-1;-1;#00529b;#ef3e42;#fefef4;1;0
+97;2;London;Knights;LON;-1;-1;-1;-1;-1;-1;-1;-1;#005837;#000000;#d5a10e;1;0
+98;2;Owen Sound;Attack;OWE;-1;-1;-1;-1;-1;-1;-1;-1;#bf2f38;#d5a10e;#000000;1;0
+99;2;Flint;Firebirds;FLI;-1;-1;-1;-1;-1;-1;-1;-1;#00285d;#ffaa00;#c0c0c0;1;1
+100;2;Saginaw;Spirit;SAG;-1;-1;-1;-1;-1;-1;-1;-1;#00285d;#bf2f38;#c0c0c0;1;1
+101;2;Sarnia;Sting;SAR;-1;-1;-1;-1;-1;-1;-1;-1;#000000;#fdb827;#fefef4;1;1
+102;2;Sault Ste. Marie;Greyhounds;SSM;-1;-1;-1;-1;-1;-1;-1;-1;#ef3e42;#c0c0c0;#fefef4;1;1
+103;2;Windsor;Spitfires;WSR;-1;-1;-1;-1;-1;-1;-1;-1;#003153;#cf111b;#fefef4;1;1
+104;4;Gatineau;Olympiques;GAT;-1;-1;-1;-1;-1;-1;-1;-1;#241e24;#acb6bc;#fefef4;1;1
+105;4;Blainville-Boisbriand;Armada;BLB;-1;-1;-1;-1;-1;-1;-1;-1;#131313;#000000;#fefef4;1;1
+106;4;Rouyn-Noranda;Huskies;ROU;-1;-1;-1;-1;-1;-1;-1;-1;#ec1a2c;#241e24;#fefef4;1;1
+107;4;Val-d'Or;Foreurs;VDO;-1;-1;-1;-1;-1;-1;-1;-1;#0b5a42;#ddb425;#fefef4;1;1
+108;4;Drummondville;Voltigeurs;DRU;-1;-1;-1;-1;-1;-1;-1;-1;#c4222c;#131313;#fefef4;1;0
+109;4;Victoriaville;Tigres;VIC;-1;-1;-1;-1;-1;-1;-1;-1;#231f20;#fdb827;#fefef4;1;0
+110;4;Shawinigan;Cataractes;SHA;-1;-1;-1;-1;-1;-1;-1;-1;#083461;#fac527;#fefef4;1;0
+111;4;Baie-Comeau;Drakkar;BAC;-1;-1;-1;-1;-1;-1;-1;-1;#ed1c24;#ffcd07;#231f20;0;1
+112;4;Chicoutimi;Saguenéens;CHI;-1;-1;-1;-1;-1;-1;-1;-1;#043264;#4c92db;#fefef4;0;1
+113;4;Québec;Remparts;QUE;-1;-1;-1;-1;-1;-1;-1;-1;#d41f32;#1c170d;#fefef4;0;1
+114;4;Rimouski;Océanic;RIM;-1;-1;-1;-1;-1;-1;-1;-1;#18124b;#adb8c0;#fefef4;0;1
+115;4;Acadie-Bathurst;Titan;ACA;-1;-1;-1;-1;-1;-1;-1;-1;#98002d;#cfaa79;#fefef4;0;0
+116;4;Cape Breton;Eagles;CAP;-1;-1;-1;-1;-1;-1;-1;-1;#1c1a1c;#fabd04;#fefef4;0;0
+117;4;Halifax;Mooseheads;HAL;-1;-1;-1;-1;-1;-1;-1;-1;#e2373f;#004d41;#fefef4;0;0
+118;4;Moncton;Wildcats;MON;-1;-1;-1;-1;-1;-1;-1;-1;#c40604;#040283;#fefef4;0;0
+119;4;Charlottetown;Islanders;CHA;-1;-1;-1;-1;-1;-1;-1;-1;#a8996e;#201f1d;#fefef4;0;0
+120;4;Saint John;Sea Dogs;SNB;-1;-1;-1;-1;-1;-1;-1;-1;#004c96;#131313;#fefef4;0;0
+121;4;Sherbrooke;Phoenix;SHE;-1;-1;-1;-1;-1;-1;-1;-1;#04225c;#04225c;#fefef4;1;0

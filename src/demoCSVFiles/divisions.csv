@@ -1,0 +1,21 @@
+League Id;Conference Id;Division Id;Name
+0;0;0;Atlantic
+0;0;1;Metropolitan
+0;1;0;Pacific
+0;1;1;Central
+1;0;0;Atlantic Division
+1;0;1;North Division
+1;1;0;Central Division
+1;1;1;Pacific Division
+2;0;0;East
+2;0;1;Central
+2;1;0;Midwest
+2;1;1;West
+3;0;0;Eastern Divison
+3;0;1;Central Division
+3;1;0;B.C. Division
+3;1;1;U.S. Division
+4;0;0;Maritimes Division
+4;0;1;East Division
+4;1;0;Central Division
+4;1;1;West Division
