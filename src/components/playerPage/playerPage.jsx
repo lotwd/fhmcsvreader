@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet} from 'react-helmet'
 import { Grid, IconButton } from '@material-ui/core'
 import { navigate } from 'gatsby'
 import { ArrowBack } from '@material-ui/icons'
@@ -16,6 +17,8 @@ import useStyles from './styles'
 const PlayerPage = ({player, teamAbbr}) => { 
     const { container } = useStyles()
     return (
+        <>
+        <Helmet title={`${player.fullName} - ${teamAbbr} || Unofficial FHM CSV Reader`}/>
         <Grid container className={container} justifyContent="center">
             <Navbar backButton={<IconButton onClick={()=>navigate(-1)}><ArrowBack/>{teamAbbr}</IconButton>}/>
             <PlayerTitle name={ `${player.firstName} ${player.lastName}` }/>
@@ -27,6 +30,7 @@ const PlayerPage = ({player, teamAbbr}) => {
             <PlayerVsTeamStats player={player}/>
             <PlayerVsTeamChart player={player}/>
         </Grid>
+        </>
     )
 }
 

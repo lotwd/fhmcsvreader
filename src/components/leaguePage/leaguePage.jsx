@@ -1,4 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react'
+import { Helmet } from 'react-helmet'
 import { Grid, Typography, IconButton } from '@material-ui/core'
 import { ArrowBack } from '@material-ui/icons'
 import { DataGrid } from '@material-ui/data-grid'
@@ -77,6 +78,7 @@ const LeaguePage = ({id, name, abbr}) => {
     },[id, league, setLeague, getLeague])
     return (
         <>
+        <Helmet title={`${league?.leagueName} || Unofficial FHM CSV Reader`}/>
         {
         <Grid container className={root} justifyContent="center" style={{paddingBottom:'50px'}}>
             <Navbar backButton={<IconButton onClick={()=>navigate(-1)}><ArrowBack/>Leagues</IconButton>}/>
@@ -87,7 +89,6 @@ const LeaguePage = ({id, name, abbr}) => {
             </Grid>
             <Grid item xs={3}></Grid>
             <ChartHeading
-                style={{minHeight:"100vh"}}
                 title={league ? league?.leagueName : ''}
                 description={league 
                     ? 

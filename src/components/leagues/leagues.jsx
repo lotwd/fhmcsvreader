@@ -1,4 +1,5 @@
 import React, {useContext, useState, useEffect} from 'react'
+import { Helmet } from 'react-helmet'
 import { Grid, Typography} from '@material-ui/core'
 import { Link, navigate } from 'gatsby'
 import { DataManagerContext } from '../dataManager/dataManager'
@@ -20,6 +21,7 @@ const Leagues = () => {
     }, [status])
     return (
         <>
+        <Helmet title={`Choose Your League || Unofficial FHM CSV Reader`}/>
         <Grid container className={container} direction="column">
             <Navbar showFileUpload/>
             <Grid style={{paddingLeft:'10px'}} item xs={12}>

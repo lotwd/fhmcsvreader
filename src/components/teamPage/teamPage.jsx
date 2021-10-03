@@ -1,4 +1,5 @@
 import React, {useState, useContext} from 'react'
+import { Helmet } from 'react-helmet'
 import { Grid, Typography, FormControl, IconButton, RadioGroup, Radio, FormControlLabel } from '@material-ui/core'
 import { ArrowBack } from '@material-ui/icons'
 import { DataGrid } from '@material-ui/data-grid'
@@ -43,6 +44,8 @@ const TeamPage = ({team, leagueAbbr}) => {
             return reducedArr
         }
     return (
+        <>
+        <Helmet title={`${team.fullName} || Unofficial FHM CSV Reader`}/>
         <Grid container className={container} justifyContent="center"> 
             <Navbar backButton={<IconButton onClick={()=>navigate(-1)}><ArrowBack/>{leagueAbbr}</IconButton>}/>
             <Typography className={title} variant="h3" align="center">
@@ -122,6 +125,7 @@ const TeamPage = ({team, leagueAbbr}) => {
             <ChartHeading title={"Player Stats Comparision Chart"} description={"This bar chart provides a visual presentation of a player, or multiple player stats.  Use the buttons above the bar chart to toggle players and the buttons below to toggle stats."}/>
             <PlayerStatsChart data={team?.players} buttonsData={columnsReduced()} chartKey="points" activeSet={activeSet}/>
         </Grid>
+        </>
     )
 }
 
