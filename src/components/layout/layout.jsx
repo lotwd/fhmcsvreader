@@ -107,7 +107,11 @@ const Layout = ({children}) => {
     return (
       <MuiThemeProvider theme={theme}>
         <Helmet title="Unofficial FHM CSV Reader" defer={false}>
-
+          <meta 
+            name="description" 
+            content="Use this tool to import your Franchise Hockey Manager 7 CSV files and get access to expanded stats, charts and more.  " />
+          <meta name="keywords" content="franchise hockey manager, fhm, franchise hockey manager 7, fhm7, franchise hockey manager csv reader, fhm csv reader"/>
+          <link rel="canonical" href="https://www.fhmcsvreader.com" />
         </Helmet>
           <CssBaseline/>
           {children}
