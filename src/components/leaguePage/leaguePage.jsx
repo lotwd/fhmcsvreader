@@ -87,6 +87,7 @@ const LeaguePage = ({id, name, abbr}) => {
             </Grid>
             <Grid item xs={3}></Grid>
             <ChartHeading
+                style={{minHeight:"100vh"}}
                 title={league ? league?.leagueName : ''}
                 description={league 
                     ? 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import { CssBaseline } from '@material-ui/core'
 import {
     createTheme,
     MuiThemeProvider
@@ -108,6 +109,7 @@ const Layout = ({children}) => {
         <Helmet title="Unofficial FHM CSV Reader" defer={false}>
 
         </Helmet>
+          <CssBaseline/>
           {children}
       </MuiThemeProvider>
     )

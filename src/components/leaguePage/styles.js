@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/styles'
 
 export default makeStyles((theme)=>({
     root:{
-        minHeight:"100%",
+        minHeight:"100vh",
         backgroundColor:theme.palette.primary.main,
         '& a':{
             textDecoration:'none',

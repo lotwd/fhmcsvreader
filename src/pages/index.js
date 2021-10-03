@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 const IndexPage = ({data}) => {
   return (
     <main>
-      <MainPage demoData={data}/>
+        <MainPage demoData={data}/>
     </main>
   )
 }
